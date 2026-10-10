@@ -1,0 +1,42 @@
+# Python and development environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+config/
+.config/
+
+# Personal libraries, reading progress, downloads, and cached artwork
+library.json
+progress/
+.last_read.json
+cache/
+.cache/
+covers/
+Downloads/
+downloads/
+Chapter_*/
+.komori_incomplete
+.komori_complete.json
+
+# Local verification reports contain filesystem paths and library metadata
+*verification-results*.json
+verification-results.json
+frontpage-verification-results.json
+
+# Editor / OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store
